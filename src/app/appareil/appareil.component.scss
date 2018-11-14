@@ -1,0 +1,29 @@
+.btn{
+	margin: 15px;
+	display: inline-block;
+}
+.list-group-item{
+	border-radius: 15px;
+	display: block;
+	margin:15px auto;
+	width: 90%;
+}
+a{
+	color: #fff;
+	background: #000;
+	padding: 10px 30px;
+	transition: .5s;
+	float: right;
+	border-radius:10px;
+	&:hover{
+		color: #000;
+		background: #fff;
+		text-decoration: none;
+		font-weight: 700;
+		border: 1px solid red;
+	}
+}
+.machine-info{
+	padding:30px 10px;
+	border-radius: 15px;
+}

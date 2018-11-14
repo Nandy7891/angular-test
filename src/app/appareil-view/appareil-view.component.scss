@@ -1,0 +1,38 @@
+.btn{
+	margin: 15px auto;
+	text-align: center;
+	padding: 15px 40px;
+	display: block;
+	text-transform: uppercase;
+	&:hover{
+		font-weight: 700;
+	}
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 62px;
+	letter-spacing: 6px;
+	word-spacing: 20px;
+	font-weight: 900;
+	font-family: minion pro;
+}
+.list-group{
+	padding:0!important;
+	margin: 0!important;
+	display: block;
+}
+ul,ol{
+	padding:0;
+}
+p{
+	text-align: center;
+}
+.appareil-list{
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	li{
+		width: 100%;
+	}
+}
